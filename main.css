@@ -1,0 +1,98 @@
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    font-size:140px;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(247, 207, 33);
+}
+h2 {
+    font-family: 'Junge', cursive;
+    color:black;
+    font-size: 40px;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-family: 'Junge', cursive;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: center;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    line-height: 155%;
+    font-size: 15px;
+}
+
+body {
+    background-color:rgb(211, 220, 228);;
+}
+img  {
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #dbdad2;
+    margin: auto;
+}
+div {
+    font-family: 'Junge', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    font-size:40px;
+    background-size: auto;
+    display: flex;
+    justify-content: left;
+    margin-left: 3cm;
+}
+
+p {
+    font-family: 'Junge', cursive;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: left ;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    line-height: 155%;
+    font-size: 20px;
+}
+input{
+    margin-left: 3cm;
+}
+button {
+    margin-left: 1cm;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #080808;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: lightslategray;
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0)
+        );
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
